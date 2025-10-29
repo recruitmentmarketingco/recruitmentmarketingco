@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slope</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- preloader - start -->
+    <div class="preloader">
+        <div id="pulse-wrapper">
+            <div id="pulse">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <img src="assets/images/logo.png" alt="slope-logo">
+    </div>
+    <!-- preloader - end -->
+
+    <!-- navigation - start -->
+    <div class="navigation-wrapper">
+        <div class="placeholder"></div>   
+        <nav class="navigation enabled-sticky">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <a 
+                    href="index.html" 
+                    class="custom-logo-link" 
+                    rel="home" 
+                    aria-current="page">
+                        <img width="75" height="75" src="assets/images/logo.png" class="custom-logo" alt="Slope"></a>
+                </div>
+                <div class="hamburger ">
+                    <a href="#">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="navigation-menu">
+                <div class="navigation-menu-image">
+                    <img 
+                        width="683" 
+                        height="1037" 
+                        src="assets/images/navigation_menu_image.png" 
+                        alt="navigation image" 
+                    >
+                </div>
+                <div class="navigation-menu-menu">
+                    <div class="navigation-menu-menu--wrapper">
+                        <ul class="menu">
+                            <li class="menu-item menu-item-has-children">
+                                <a href="index.html">Home</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="index.html">Home 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="index-2.html">Home 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="404.html">404</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="services-1.html">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="services-1.html">Service Style 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="services-2.html">Services Style 2</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="service-detailed.html">Service Detailed</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="projects-1.html">Projects</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="projects-1.html">Projects Style 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="projects-2.html">Projects Style 2</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="project-detailed.html">Project Detailed</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="blog-grid.html">Blog</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="blog-grid.html">Blog Grid</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-list.html">Blog List</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-detailed.html">Post Detailed</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navigation-menu-social">
+                        <h6>FOLLOW</h6>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/gfx.partner">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/gfxpartner">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/gfxpartner">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.behance.net/gfxpartner">
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navigation - end -->
+
+    <!-- page header - start -->
+    <div class="page-header position-relative">
+        <div class="page-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="heading heading-very-large dark-1">
+                            Let's get your free strategy session.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-header-bottom">
+            <div class="single-image">
+                <img src="assets/images/contact_img.jpg" alt="contact-header">
+              </div>
+        </div>
+        <div class="artwork artwork-3">
+            <img src="assets/images/art_1.png" width="582" height="669" alt="artwork">
+        </div>
+    </div>
+    <!-- page header - end -->
+
+    <!-- contact section - start -->
+    <div class="contact-section">
+        <div class="contact-section-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+
+                        <div class="contact-form-wrapper">
+		
+                            <div class="nav-pills-wrapper">
+                                <ul class="nav nav-pills contact-form-tab" role="tablist">
+                                    <li class="nav-item">
+                                        <a 
+                                        class="nav-link active" 
+                                        id="slope-cf7-id-38126ae1-tab" 
+                                        data-toggle="pill" 
+                                        href="#slope-cf7-id-38126ae1" 
+                                        role="tab" 
+                                        aria-controls="slope-cf7-id-38126ae1" 
+                                        aria-selected="true">
+                                            <span>Strategy Session</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a 
+                                        class="nav-link" 
+                                        id="slope-cf7-id-38126ae2-tab" 
+                                        data-toggle="pill" 
+                                        href="#slope-cf7-id-38126ae2" 
+                                        role="tab" 
+                                        aria-controls="slope-cf7-id-38126ae2" 
+                                        aria-selected="false">
+                                            <span>Say Hello</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                    
+                            <div class="form-wrapper tab-content">
+                                    
+                                <div 
+                                class="contact-form slope-cf7-38126ae1 tab-pane fade active show" 
+                                id="slope-cf7-id-38126ae1" 
+                                role="tabpanel" 
+                                aria-labelledby="slope-cf7-id-38126ae1-tab">
+                                    <div>
+                                        <form>
+                                            <div class="slope-contact-form">
+                                                <div class="select-wrapper">
+                                                    <div>
+                                                        <label>Select type of your project</label>
+                                                        <span class="source-select">
+                                                            <select>
+                                                                <option value="">Select an option</option>
+                                                                <option value="Strategy">Strategy</option>
+                                                                <option value="Brand Identities">Brand Identities</option>
+                                                                <option value="Print Design">Print Design</option>
+                                                                <option value="UI/UX Design">UI/UX Design</option>
+                                                                <option value="Art Direction">Art Direction</option>
+                                                                <option value="Back End">Back End</option>
+                                                                <option value="Admin System">Admin System</option>
+                                                                <option value="Front End">Front End</option>
+                                                            </select>
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <label>How did you find us?</label>
+                                                        <span class="source-select">
+                                                            <select>
+                                                                <option value="">Select an option</option>
+                                                                <option value="Strategy">Google</option>
+                                                                <option value="Brand Identities">Facebook</option>
+                                                                <option value="Print Design">Other</option>
+                                                            </select>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="fields-wrapper">
+                                                    <div class="input-contact">
+                                                        <span class="wpcf7-form-control-wrap name-field"><input type="text" name="name-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name *"></span>
+                                                        <span class="wpcf7-form-control-wrap company-field"><input type="text" name="company-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your company *"></span>
+                                                        <span class="wpcf7-form-control-wrap email-field"><input type="email" name="email-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email address *"></span>
+                                                        <span class="wpcf7-form-control-wrap number-field"><input type="tel" name="number-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone"></span>
+                                                    </div>
+                                                    <div class="textarea-contact">
+                                                        <span class="wpcf7-form-control-wrap message-field"><textarea name="message-field" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Tell us about the project *"></textarea></span>
+                                                    </div>
+                                                </div>
+                                                <div class="submit-contact">
+                                                    <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit"><span class="wpcf7-spinner"></span>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>	
+                                            
+                                <div 
+                                class="contact-form slope-cf7-38126ae2 tab-pane fade" 
+                                id="slope-cf7-id-38126ae2" 
+                                role="tabpanel" 
+                                aria-labelledby="slope-cf7-id-38126ae2-tab">
+                                    <div>
+                                        <form>
+                                            <div class="slope-contact-form">
+                                                <div class="fields-wrapper">
+                                                    <div class="input-contact">
+                                                        <span class="wpcf7-form-control-wrap name-field"><input type="text" name="name-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name *"></span>
+                                                        <span class="wpcf7-form-control-wrap company-field"><input type="text" name="company-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your company *"></span>
+                                                        <span class="wpcf7-form-control-wrap email-field"><input type="email" name="email-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email address *"></span>
+                                                        <span class="wpcf7-form-control-wrap number-field"><input type="tel" name="number-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone"></span>
+                                                    </div>
+                                                    <div class="textarea-contact">
+                                                        <span class="wpcf7-form-control-wrap message-field"><textarea name="message-field" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Write your message *"></textarea></span>
+                                                    </div>
+                                                </div>
+                                                <div class="submit-contact">
+                                                    <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit"><span class="wpcf7-spinner"></span>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>	
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section - end -->
+
+    <!-- footer - start -->
+    <footer class="footer">
+        <div class="footer--wrapper">
+            <div class="container">
+                <div class="footer--header">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="footer--logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo_footer.png" alt="footer">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="footer--paragraph">
+                                <h3 class="heading heading-large light-1">
+                                    A young digital agency in the heart of Sydney.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer--details">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="detail-single footer-phone-number">
+                                <h6>PHONE</h6>
+                                <a href="tel:8039376963">
+                                    <h4>(803) 937 6963</h4>    
+                                </a>
+                            </div>
+                            <div class="detail-single footer-address">
+                                <h6>ADDRESS</h6>
+                                <h4>Baldwinsville, Sydney,<br>NSW, Australia</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="detail-single footer-email">
+                                <h6>ENQUIRIES</h6>
+                                <a href="mailto:hello@example.com">
+                                    <h4>hello@example.com</h4>
+                                </a>
+                            </div>
+                            <div class="detail-single">
+                                <div class="navigation-menu-social">
+                                    <h6>FOLLOW</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/gfx.partner">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/gfxpartner">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.pinterest.com/gfxpartner">
+                                                <i class="fab fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.behance.net/gfxpartner">
+                                                <i class="fab fa-behance"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="detail-single"> 
+                                <div class="email-form">
+                                    <label>SUBSCRIBE</label>
+                                    <div class="email-form-field">
+                                        <span class="email">
+                                            <input 
+                                                type="email" 
+                                                name="email"
+                                                placeholder="Email address">
+                                        </span>
+                                        <button type="submit">
+                                            <i class="fas fa-check-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <h6>Copyright © 2022.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer - end -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

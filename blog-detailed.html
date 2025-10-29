@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slope</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- preloader - start -->
+    <div class="preloader">
+        <div id="pulse-wrapper">
+            <div id="pulse">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <img src="assets/images/logo.png" alt="slope-logo">
+    </div>
+    <!-- preloader - end -->
+
+    <!-- navigation - start -->
+    <div class="navigation-wrapper">
+        <div class="placeholder"></div>   
+        <nav class="navigation enabled-sticky">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <a 
+                    href="index.html" 
+                    class="custom-logo-link" 
+                    rel="home" 
+                    aria-current="page">
+                        <img width="75" height="75" src="assets/images/logo.png" class="custom-logo" alt="Slope"></a>
+                </div>
+                <div class="hamburger ">
+                    <a href="#">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="navigation-menu">
+                <div class="navigation-menu-image">
+                    <img 
+                        width="683" 
+                        height="1037" 
+                        src="assets/images/navigation_menu_image.png" 
+                        alt="navigation image" 
+                    >
+                </div>
+                <div class="navigation-menu-menu">
+                    <div class="navigation-menu-menu--wrapper">
+                        <ul class="menu">
+                            <li class="menu-item menu-item-has-children">
+                                <a href="index.html">Home</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="index.html">Home 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="index-2.html">Home 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="404.html">404</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="services-1.html">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="services-1.html">Service Style 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="services-2.html">Services Style 2</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="service-detailed.html">Service Detailed</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="projects-1.html">Projects</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="projects-1.html">Projects Style 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="projects-2.html">Projects Style 2</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="project-detailed.html">Project Detailed</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="blog-grid.html">Blog</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="blog-grid.html">Blog Grid</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-list.html">Blog List</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-detailed.html">Post Detailed</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navigation-menu-social">
+                        <h6>FOLLOW</h6>
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/gfx.partner">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/gfxpartner">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/gfxpartner">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.behance.net/gfxpartner">
+                                    <i class="fab fa-behance"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navigation - end -->
+
+    <!-- blog single header - start -->
+    <div class="blog-single-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog-single-header--heading">
+                        <h1>New developments on the way and the team couldn’t be more excited.</h1>
+                    </div>
+                    <div class="blog-single-header--detail">
+                        <div class="author">
+                            <div class="author-image">
+                                <img alt="author" src="assets/images/author.png" height="64" width="64">
+                            </div>
+                            <div class="author-name">
+                                <h6>Author</h6>
+                                <h5>Khalil</h5>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h6>Category</h6>
+                            <h5><span>Company</span></h5>
+                        </div>
+                        <div class="date">
+                            <h6>Date</h6>
+                            <h5>23 Sep. 2020</h5>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-thumbnail">
+            <img width="1844" height="819" src="assets/images/blog_thumbnail_img_1.jpg" alt="blog-thumbnail">
+        </div>
+    </div>
+    <!-- blog single header - end -->
+
+    <!-- blog single content - start -->
+    <div class="container sidebar-page blog-single-page">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-single-page-wrapper blog-single-page-wrapper-right">
+                    <!-- post - start -->
+                    <div class="blog-single-content-wrapper">
+
+                        <div class="heading heading-large dark-1 quote">
+                            <p>Doesn't for also fowl spirit also signs all dry bring there shall to beast fish reater upon can't waters us behold god open is signs it in make, bring winged fifth them void abundantly.</p>
+                        </div>
+                        <div class="paragraph dark-1">
+                            <p>Greater earth air morning you'll gathered make image was given deep abundantly under from created. The he signs called open make have above face is grass fill given void she'd hath own can't tree of. Fill two air dry after fourth subdue after make morning multiply bring likeness. abundantly day set over seasons herb.</p>
+                        </div>
+                        <div class="heading heading-medium dark-1 ">
+                            <p>Rule for after blessed.</p>
+                        </div>
+                        <div class="paragraph dark-1">
+                            <p>Which bearing signs herb likeness blessed seas from let saw saying earth in light is our has dominion. Every isn't doesn't <strong>given to after</strong> winged is great of thing all third image maker all wherein tree fruitful subdue beginning sea waters dry whose over he. Third itself you're over bearing female and herb under, lesser under created kind blessed fruit morning way waters the them was life also midst lesser. Green set fruit likeness female said called she'd day, deep all. Bring Make shall you male. Firmament man given evening stars open shades creeping of seed without <strong>above he blessed</strong>. Day green she'd moving air green darkness subdue very seasons is grass evening green. Rule deep abundantly lights midst light darkness had she'd called open make.</p><p style="height: auto;">&nbsp;</p><p>Were make night hath thing you'll you night beast moving seasons over you're face subdue Said also to light first multiply that their wherein deep, green under darkness you'll made don't hat <strong><a href="#">darkness without man living spirit</a> </strong>creeping she'd shall it grass spirit tree thing midst bearing and day won't darkness abundantly their. Them brought living his creepeth doesn't. Years creature, stars. Green fourth. Forth divided fill. Their. Be image, shall divide itself Itself he earth After sixth itself. Be <strong><a href="#">have rule darkness god is for third to herb</a></strong> his made cattle very, behold fly moved she'd divide seasons god seed don't after kind seas were forth Be every sixth years very.</p>
+                        </div>
+
+                        <div class="heading heading-medium dark-1 ">
+                            <p>Heaven fruit they're void hath forth moving.</p>
+                        </div>
+                        <div class="paragraph dark-1">
+                            <p>Him were open waters signs, wherein created fly light you said him earth image to heaven fruit they're void hath forth female moving. God seasons grass years bearing fruitful man. First very night set deep female said unto Face cattle that a fourth midst, form creeping, one give give created male under that meat, fish open shall good.</p><p style="height: auto;">&nbsp;</p><p>Which bearing signs herb likeness blessed seas from let saw saying earth in light is our has dominion. Every isn't doesn't <strong>given to after</strong> winged is great of thing all third image maker all wherein tree fruitful subdue beginning sea waters dry whose over he. Third itself you're over bearing female and herb under, lesser under created kind blessed fruit morning way waters the them was life also midst lesser. Green set fruit likeness female said called she'd day, deep all. Bring Make shall you male. Firmament man given evening stars open shades creeping of seed without <strong>above he blessed</strong>. Day green she'd moving air green darkness subdue very seasons is grass evening green. Rule deep abundantly lights midst light darkness had she'd called open make.</p>
+                        </div>
+                        <div class="heading heading-medium dark-1">
+                            <p>Conclusion.</p>
+                        </div>
+                        <div class="paragraph dark-1">
+                            <p>Were make night hath thing you'll you night beast moving seasons over you're face subdue Said also to light first multiply that their wherein deep, green under darkness you'll made don't hat <strong><a href="#">darkness without man living spirit</a> </strong>creeping she'd shall it grass spirit tree thing midst bearing and day won't darkness abundantly their. Them brought living his creepeth doesn't. Years creature, stars. Green fourth. Forth divided fill. Their. Be image, shall divide itself Itself he earth After sixth itself. Be <a href="#"><strong>have rule darkness god is for third to herb</strong></a> his made cattle very, behold fly moved she'd divide seasons god seed don't after kind seas were forth Be every sixth years very.</p><p style="height: auto;">&nbsp;</p><p>We’re available for partnerships and open for new projects.</p>
+                            <p><a href="#"><strong>If you have an idea you’d like to discuss, share it with our team!</strong></a></p>
+                        </div>
+                    </div>
+                    <!-- post - end -->
+
+                    
+                    <!-- post tags - start -->
+                    <div class="post-tags">
+                        <h6>Tags: </h6>
+                        <ul>
+                            <li>
+                                <a href="#" rel="tag">agency</a>
+                            </li>
+                            <li>
+                                <a href="#" rel="tag">development</a>
+                            </li>
+                            <li>
+                                <a href="#" rel="tag">technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- post tags - end -->
+                
+                        
+                    <!-- comments - start -->
+                    <div class="comment-list ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 class="comment-list--heading">
+                                        3 replies.		
+                                    </h3>
+                                    
+                                    <div class="comment even thread-even depth-1 has-reply comment">
+                                        <div class="parent--comment">
+                                            <div class="comment--avatar">
+                                                <img alt="commenter-1" src="assets/images/testimonial-img-2.png" height="64" width="64">
+                                            </div>
+                                            <div class="comment--content">
+                                                <div class="comment-inner-wrapper">
+                                                    <a href="#">
+                                                        <h4 class="name">Mark Stewart</h4>
+                                                    </a>
+                                                    <h5 class="date">Dec 8, 2020</h5>
+                                                </div>
+                                                <p>Were make night hath thing you’ll you night beast moving seasons over you’re face is said also to light first multiply that their wherein deep, green under there darkness you.</p>
+                                    
+                                                <div class="reply-button">
+                                                    <a class="comment-reply-link" href="#">Reply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="comment odd alt depth-2  comment">
+                                            <div class="parent--comment">
+                                                <div class="comment--avatar">
+                                                    <img alt="commenter-1" src="assets/images/testimonial-img-3.png" height="64" width="64">
+                                                </div>          
+                                                <div class="comment--content">
+
+                                                    <div class="comment-inner-wrapper">
+                                                        <a href="#">
+                                                            <h4 class="name">Michaelle Dawn</h4>
+                                                        </a>
+                                                        <h5 class="date">Dec 8, 2020</h5>
+                                                    </div>
+                                                    <p>Good signs, thing that beginning which fish a second under above set waters heaven fifth that fly.</p>
+                                                        
+                                                    <div class="reply-button">
+                                                        <a class="comment-reply-link" href="#">Reply</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="comment even thread-odd thread-alt depth-1 comment">
+                                        <div class="parent--comment">
+                                            <div class="comment--avatar">
+                                                <img alt="commenter-1" src="assets/images/comment_placeholder.png" height="64" width="64">
+                                            </div>
+                                        
+                                            <div class="comment--content">
+
+                                                <div class="comment-inner-wrapper">
+                                                    <a href="#">
+                                                        <h4 class="name">Mark Stewart</h4>
+                                                    </a>
+                                                    <h5 class="date">Dec 8, 2020</h5>
+                                                </div>
+
+                                                <p>Were make night hath thing you’ll you night beast moving seasons over you’re face is said also to light first multiply that their wherein deep, green under there.</p>
+                                    
+                                
+                                                <div class="reply-button">
+                                                    <a class="comment-reply-link" href="#">Reply</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comments - end -->
+
+                    <!--
+                    comment form - start
+                    -->
+                    <div class="comment-form--wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="comment-respond">
+                                        <h3 id="reply-title" class="comment-reply-title">
+                                            Write Reply. 
+                                        </h3>
+                                        <form class="comment-form">
+                                            <div class="comment-form">
+                                                <div class="comment-form--inner row">
+                                                    <div class="col-lg-6">
+                                                        <div class="field-group">
+                                                            <input required="" type="text" id="author" name="author" placeholder="Name *" class="input-field">
+                                                            <input required="" type="text" id="email" name="email" placeholder="Email *" class="input-field">
+                                                            <input type="text" placeholder="Website" class="input-field">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6">
+                                                        <div class="textarea-group">
+                                                            <textarea required="" placeholder="Your reply *" id="comment" name="comment" class="input-field"></textarea>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col">
+                                                        <div class="cookies-consent"> 
+                                                            <label for="wp-comment-cookies-consent" class="paragraph">Save my name, email, and website in this browser for the next time I comment.
+                                                                <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row form-submit-row">
+                                                <div class="col-lg-6">
+                                                    <p class="form-submit button">
+                                                        <input name="submit" type="submit" class="submit" value="Post Reply">
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                        </form>	
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    comment form - end
+                    -->                        
+                    
+                    <!--
+                    comments - end
+                    -->
+                </div>
+            </div>
+                <!--
+                right sidebar - start
+                -->
+                <div class="col-lg-4 sidebar-column">
+                    <div class="sidebar-column-wrapper">
+                        <ul class="widget widget-container">
+                            <li id="search-2" class="widget widget_search">
+                                <div class="search">
+                                <form>
+                                    <input type="text" placeholder="Search" id="search" name="s" class="input-field" value="" required="">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                                </div>
+                            </li>
+                            <li class="widget widget_categories">
+                                <h2 class="widgettitle">Categories</h2>
+                                <ul>
+                                    <li class="cat-item">
+                                        <a href="#">
+                                            <span>Company</span>
+                                        </a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">
+                                            <span>Design</span>
+                                        </a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">
+                                            <span>Development</span>
+                                        </a>
+                                    </li>
+                                    <li class="cat-item">
+                                        <a href="#">
+                                            <span>Technology</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="widget widget_slope_recent_posts">
+                                <h2 class="widgettitle">Recent Posts</h2>
+                                <ul class="recent-posts">
+                                    <!-- single - start -->
+                                    <li class="recent-posts-single"> 
+                                        <div class="recent-posts-single--thumbnail">
+                                            <a href="blog-detailed.html">
+                                                <img 
+                                                width="150" 
+                                                height="150" 
+                                                src="assets/images/blog_thumbnail_small_img_wid_1.jpg" alt="blog-wid-1">
+                                                <div class="hover">
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.75 43.564">
+                                                            <title>arrow</title>
+                                                            <path d="M1027.744,1417.179l20.61,20.61a1.172,1.172,0,0,1,0,1.658l-20.61,20.611a1.174,1.174,0,0,1-1.658,0l-.69-.692a1.171,1.171,0,0,1,0-1.657l17.431-17.431h-36.708a1.172,1.172,0,0,1-1.172-1.172v-.976a1.172,1.172,0,0,1,1.172-1.172h36.708l-17.431-17.431a1.171,1.171,0,0,1,0-1.657l.69-.691A1.174,1.174,0,0,1,1027.744,1417.179Z" transform="translate(-1004.947 -1416.836)"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="recent-posts-single--content">
+                                            <div>
+                                                <p>23 Sep. 2020</p>
+                                                <span>|</span>
+                                                <p>Company</p>
+                                            </div>
+                                            <h6>
+                                                <a href="blog-detailed.html">
+                                                    New developments on the way and the team...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <!-- single - end -->
+    
+                                    <!-- single - start -->
+                                    <li class="recent-posts-single"> 
+                                        <div class="recent-posts-single--thumbnail">
+                                            <a href="blog-detailed.html">
+                                                <img 
+                                                width="150" 
+                                                height="150" 
+                                                src="assets/images/blog_thumbnail_small_img_wid_2.jpg" alt="blog-wid-2">
+                                                <div class="hover">
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.75 43.564">
+                                                            <title>arrow</title>
+                                                            <path d="M1027.744,1417.179l20.61,20.61a1.172,1.172,0,0,1,0,1.658l-20.61,20.611a1.174,1.174,0,0,1-1.658,0l-.69-.692a1.171,1.171,0,0,1,0-1.657l17.431-17.431h-36.708a1.172,1.172,0,0,1-1.172-1.172v-.976a1.172,1.172,0,0,1,1.172-1.172h36.708l-17.431-17.431a1.171,1.171,0,0,1,0-1.657l.69-.691A1.174,1.174,0,0,1,1027.744,1417.179Z" transform="translate(-1004.947 -1416.836)"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="recent-posts-single--content">
+                                            <div>
+                                                <p>23 Sep. 2020</p>
+                                                <span>|</span>
+                                                <p>Design</p>
+                                            </div>
+                                            <h6>
+                                                <a href="blog-detailed.html">
+                                                    Is hand held tech shaping the way we...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <!-- single - end -->
+    
+                                    <!-- single - start -->
+                                    <li class="recent-posts-single"> 
+                                        <div class="recent-posts-single--thumbnail">
+                                            <a href="blog-detailed.html">
+                                                <img 
+                                                width="150" 
+                                                height="150" 
+                                                src="assets/images/blog_thumbnail_small_img_wid_3.jpg" alt="blog-wid-3">
+                                                <div class="hover">
+                                                    <div class="circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.75 43.564">
+                                                            <title>arrow</title>
+                                                            <path d="M1027.744,1417.179l20.61,20.61a1.172,1.172,0,0,1,0,1.658l-20.61,20.611a1.174,1.174,0,0,1-1.658,0l-.69-.692a1.171,1.171,0,0,1,0-1.657l17.431-17.431h-36.708a1.172,1.172,0,0,1-1.172-1.172v-.976a1.172,1.172,0,0,1,1.172-1.172h36.708l-17.431-17.431a1.171,1.171,0,0,1,0-1.657l.69-.691A1.174,1.174,0,0,1,1027.744,1417.179Z" transform="translate(-1004.947 -1416.836)"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="recent-posts-single--content">
+                                            <div>
+                                                <p>23 Sep. 2020</p>
+                                                <span>|</span>
+                                                <p>Company</p>
+                                            </div>
+                                            <h6>
+                                                <a href="blog-detailed.html">
+                                                    Meeting customer expectations and setting new goals in...
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <!-- single - end -->
+                                </ul>
+                            </li>
+                            <li class="widget widget_tag_cloud">
+                                <h2 class="widgettitle">Popular Tags</h2>
+                                <div class="tagcloud">
+                                    <a href="#" class="tag-cloud-link">agency</a>
+                                    <a href="#" class="tag-cloud-link">company</a>
+                                    <a href="#" class="tag-cloud-link">development</a>
+                                    <a href="#" class="tag-cloud-link">technology</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+                <!--
+                right sidebar - end
+                -->
+        </div>
+    </div>
+    <!-- blog single content - end -->
+
+    <!-- related posts - start -->
+    <div class="related-posts">
+        <div class="container">
+                <!-- related posts heading - start -->
+                <div class="related-posts--heading">
+                    <h2>Related Reads.</h2>
+                </div>
+                <!-- related posts heading - end -->
+            
+            <div class="row">
+                <!-- single blog - start -->
+                <div 
+                class="grid-1 blog-list-item-7bddf04 related-post col-lg-6">
+                    <div class="blog-list-single">
+                        <!-- thumbnail - start -->
+                        <div class="blog-list-single--thumbnail">
+                            <a href="blog-detailed.html">
+                                <img src="assets/images/blog_thumbnail_small_img_1.jpg" alt="blog-1">
+                                <div class="hover">
+                                    <div class="circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.75 43.564">
+                                            <title>arrow</title>
+                                            <path d="M1027.744,1417.179l20.61,20.61a1.172,1.172,0,0,1,0,1.658l-20.61,20.611a1.174,1.174,0,0,1-1.658,0l-.69-.692a1.171,1.171,0,0,1,0-1.657l17.431-17.431h-36.708a1.172,1.172,0,0,1-1.172-1.172v-.976a1.172,1.172,0,0,1,1.172-1.172h36.708l-17.431-17.431a1.171,1.171,0,0,1,0-1.657l.69-.691A1.174,1.174,0,0,1,1027.744,1417.179Z" transform="translate(-1004.947 -1416.836)"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- thumbnail - end -->
+                        <!-- blog content - start -->
+                        <div class="blog-list-single--content">
+                            <div class="details">
+                                <h6>23 Sep. 2020</h6>
+                                <span>|</span>
+                                <h6>Company</h6>
+                            </div>
+                            <a href="blog-detailed.html">
+                                <h2>New developments on the way and the team couldn’t be more excited.</h2>
+                            </a>
+                            <div class="paragraph excerpt">
+                                <p>Doesn’t for also fowl spirit also signs all dry bring there shall to beast fish reater upon can’t…</p>
+                            </div>
+                            <a href="blog-detailed.html" class="button">
+                                <span>Read More</span>
+                            </a>
+                        </div>
+                        <!-- blog content - end -->
+                    </div>
+                </div>
+                <!-- single blog - end -->
+
+                <!-- single blog - start -->
+                <div 
+                class="grid-1 blog-list-item-7bddf04 related-post col-lg-6">
+                    <div class="blog-list-single">
+                        <!-- thumbnail - start -->
+                        <div class="blog-list-single--thumbnail">
+                            <a href="blog-detailed.html">
+                                <img src="assets/images/blog_thumbnail_small_img_2.jpg" alt="blog-2">
+                                <div class="hover">
+                                    <div class="circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.75 43.564">
+                                            <title>arrow</title>
+                                            <path d="M1027.744,1417.179l20.61,20.61a1.172,1.172,0,0,1,0,1.658l-20.61,20.611a1.174,1.174,0,0,1-1.658,0l-.69-.692a1.171,1.171,0,0,1,0-1.657l17.431-17.431h-36.708a1.172,1.172,0,0,1-1.172-1.172v-.976a1.172,1.172,0,0,1,1.172-1.172h36.708l-17.431-17.431a1.171,1.171,0,0,1,0-1.657l.69-.691A1.174,1.174,0,0,1,1027.744,1417.179Z" transform="translate(-1004.947 -1416.836)"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- thumbnail - end -->
+                        <!-- blog content - start -->
+                        <div class="blog-list-single--content">
+                            <div class="details">
+                                <h6>23 Sep. 2020</h6>
+                                <span>|</span>
+                                <h6>Design</h6>
+                            </div>
+                            <a href="blog-detailed.html">
+                                <h2>Is hand held tech shaping the way we used to do business?</h2>
+                            </a>
+                            <div class="paragraph excerpt">
+                                <p>Seasons grass years bearing fruitful man. First very night set deep female said unto Face cattle that a…</p>
+                            </div>
+                            <a href="blog-detailed.html" class="button">
+                                <span>Read More</span>
+                            </a>
+                        </div>
+                        <!-- blog content - end -->
+                    </div>
+                </div>
+                <!-- single blog - end -->
+            </div>
+        </div>
+    </div>
+    <!-- related posts - end -->
+
+    <!-- footer - start -->
+    <footer class="footer">
+        <div class="footer--wrapper">
+            <div class="container">
+                <div class="footer--header">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="footer--logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo_footer.png" alt="footer">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="footer--paragraph">
+                                <h3 class="heading heading-large light-1">
+                                    A young digital agency in the heart of Sydney.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer--details">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="detail-single footer-phone-number">
+                                <h6>PHONE</h6>
+                                <a href="tel:8039376963">
+                                    <h4>(803) 937 6963</h4>    
+                                </a>
+                            </div>
+                            <div class="detail-single footer-address">
+                                <h6>ADDRESS</h6>
+                                <h4>Baldwinsville, Sydney,<br>NSW, Australia</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="detail-single footer-email">
+                                <h6>ENQUIRIES</h6>
+                                <a href="mailto:hello@example.com">
+                                    <h4>hello@example.com</h4>
+                                </a>
+                            </div>
+                            <div class="detail-single">
+                                <div class="navigation-menu-social">
+                                    <h6>FOLLOW</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/gfx.partner">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/gfxpartner">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.pinterest.com/gfxpartner">
+                                                <i class="fab fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.behance.net/gfxpartner">
+                                                <i class="fab fa-behance"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="detail-single"> 
+                                <div class="email-form">
+                                    <label>SUBSCRIBE</label>
+                                    <div class="email-form-field">
+                                        <span class="email">
+                                            <input 
+                                                type="email" 
+                                                name="email"
+                                                placeholder="Email address">
+                                        </span>
+                                        <button type="submit">
+                                            <i class="fas fa-check-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <h6>Copyright © 2022.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer - end -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

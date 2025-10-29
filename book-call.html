@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Call | Schedule Your Free Consultation</title>
+    <meta name="description" content="Book a free consultation with our recruitment marketing experts. Discuss your goals and discover how we can help your recruitment agency grow.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        .calendly-button-container {
+            margin: 40px 0;
+        }
+        .calendly-inline-widget {
+            min-width: 320px;
+            height: 700px;
+            margin: 40px 0;
+        }
+        .booking-option {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .booking-option:hover {
+            background: #e9ecef;
+            transform: translateY(-5px);
+        }
+        .booking-option h3 {
+            margin-bottom: 15px;
+        }
+        .booking-option p {
+            margin-bottom: 25px;
+            color: #6c757d;
+        }
+        .calendly-cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        .calendly-cta-button:hover {
+            background-color: #333;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- preloader - start -->
+    <div class="preloader">
+        <div id="pulse-wrapper">
+            <div id="pulse">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <img src="assets/images/logo.png" alt="recruitment-marketing-logo">
+    </div>
+    <!-- preloader - end -->
+
+    <!-- navigation - start -->
+    <div class="navigation-wrapper">
+        <div class="placeholder"></div>   
+        <nav class="navigation enabled-sticky">
+            <div class="navigation-bar">
+                <div class="logo">
+                    <a 
+                    href="index.html" 
+                    class="custom-logo-link" 
+                    rel="home">
+                        <img width="75" height="75" src="assets/images/logo.png" class="custom-logo" alt="Recruitment Marketing Agency"></a>
+                </div>
+                <div class="hamburger ">
+                    <a href="#">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="navigation-menu">
+                <div class="navigation-menu-image">
+                    <img 
+                        width="683" 
+                        height="1037" 
+                        src="assets/images/navigation_menu_image.png" 
+                        alt="navigation image" 
+                    >
+                </div>
+                <div class="navigation-menu-menu">
+                    <div class="navigation-menu-menu--wrapper">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="seo-for-recruiters.html">SEO for Recruiters</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="ppc-for-recruiters.html">PPC for Recruiters</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="book-call.html">Book a Call</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navigation-menu-social">
+                        <h6>FOLLOW</h6>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navigation - end -->
+
+    <!-- page header - start -->
+    <div class="page-header position-relative">
+        <div class="page-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="heading heading-very-large dark-1">
+                            Let's Discuss Your Recruitment Marketing Goals
+                        </h1>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="paragraph dark-1">
+                            <p>Schedule a free consultation to discover how we can help your recruitment agency grow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-header-bottom">
+            <div class="single-image">
+                <img src="assets/images/services-1.jpg" alt="book-consultation">
+            </div>
+        </div>
+        <div class="artwork artwork-3">
+            <img src="assets/images/art_1.png" width="582" height="669" alt="artwork">
+        </div>
+    </div>
+    <!-- page header - end -->
+
+    <!-- booking options section - start -->
+    <div class="text-about-section">
+        <div class="text-about-section-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="text-center mb-5">
+                            <h2 class="heading heading-large dark-1">
+                                Choose Your Consultation Type
+                            </h2>
+                            <div class="paragraph dark-2" style="margin-top: 20px;">
+                                <p>Select the type of consultation that best fits your needs. All consultations are completely free with no obligation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <!-- Booking Option 1 - Strategy Session -->
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="booking-option">
+                            <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                <i class="fas fa-chart-line" style="font-size: 48px; color: #000;"></i>
+                            </div>
+                            <h3 class="heading heading-medium dark-1">Free Strategy Session</h3>
+                            <p>30-minute consultation to discuss your current marketing efforts and explore growth opportunities.</p>
+                            <p><strong>Duration:</strong> 30 minutes<br>
+                            <strong>Best For:</strong> Initial consultation</p>
+                            
+                            <!-- CALENDLY BUTTON 1 - Replace href with your Calendly link -->
+                            <a href="https://calendly.com/your-calendly-link-1" 
+                               class="calendly-cta-button" 
+                               target="_blank"
+                               rel="noopener">
+                                Book Strategy Session
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Booking Option 2 - Deep Dive -->
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="booking-option">
+                            <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                <i class="fas fa-search" style="font-size: 48px; color: #000;"></i>
+                            </div>
+                            <h3 class="heading heading-medium dark-1">In-Depth Analysis Call</h3>
+                            <p>60-minute deep dive into your recruitment marketing with detailed recommendations and action plan.</p>
+                            <p><strong>Duration:</strong> 60 minutes<br>
+                            <strong>Best For:</strong> Comprehensive review</p>
+                            
+                            <!-- CALENDLY BUTTON 2 - Replace href with your Calendly link -->
+                            <a href="https://calendly.com/your-calendly-link-2" 
+                               class="calendly-cta-button" 
+                               target="_blank"
+                               rel="noopener">
+                                Book Analysis Call
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Booking Option 3 - Quick Chat -->
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="booking-option">
+                            <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                <i class="fas fa-comments" style="font-size: 48px; color: #000;"></i>
+                            </div>
+                            <h3 class="heading heading-medium dark-1">Quick Discovery Call</h3>
+                            <p>15-minute introduction to see if we're a good fit for your recruitment agency's needs.</p>
+                            <p><strong>Duration:</strong> 15 minutes<br>
+                            <strong>Best For:</strong> Quick questions</p>
+                            
+                            <!-- CALENDLY BUTTON 3 - Replace href with your Calendly link -->
+                            <a href="https://calendly.com/your-calendly-link-3" 
+                               class="calendly-cta-button" 
+                               target="_blank"
+                               rel="noopener">
+                                Book Quick Call
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Booking Option 4 - SEO Audit -->
+                    <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="booking-option">
+                            <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                <i class="fas fa-clipboard-check" style="font-size: 48px; color: #000;"></i>
+                            </div>
+                            <h3 class="heading heading-medium dark-1">Free SEO Audit Session</h3>
+                            <p>45-minute call where we review your website's SEO and provide actionable recommendations.</p>
+                            <p><strong>Duration:</strong> 45 minutes<br>
+                            <strong>Best For:</strong> SEO-focused discussion</p>
+                            
+                            <!-- CALENDLY BUTTON 4 - Replace href with your Calendly link -->
+                            <a href="https://calendly.com/your-calendly-link-4" 
+                               class="calendly-cta-button" 
+                               target="_blank"
+                               rel="noopener">
+                                Book SEO Audit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- booking options section - end -->
+
+    <!-- what to expect section - start -->
+    <div class="text-content">
+        <div class="text-content-wrapper position-relative bg-black">
+            <div class="text-content-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h2 class="heading heading-very-large light-1">
+                                What to Expect on Your Call
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-content-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h4 class="heading heading-small light-2">
+                                UNDERSTANDING YOUR GOALS
+                            </h4>
+                            <div class="paragraph light-1">
+                                <p>We'll start by understanding your recruitment agency's current situation, challenges, and growth objectives. Whether you're looking to attract more candidates, increase client inquiries, or improve your online visibility, we'll dive into what matters most to you.</p>
+                                <p style="height: auto;">&nbsp;</p>
+                                <p>Come prepared to discuss your target markets, current marketing efforts, and what success looks like for your agency.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 second-column">
+                            <h4 class="heading heading-small light-2">
+                                ACTIONABLE RECOMMENDATIONS
+                            </h4>
+                            <div class="paragraph light-1">
+                                <p>You won't leave empty-handed. Every consultation includes specific, actionable recommendations you can implement immediately. We'll identify quick wins and outline a potential strategy for long-term growth.</p>
+                                <p style="height: auto;">&nbsp;</p>
+                                <p>There's no pressure or obligation. Our goal is to provide value and help you make an informed decision about your recruitment marketing strategy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="artwork artwork-2">
+                <img src="assets/images/art_2.png" alt="artwork">
+            </div>
+        </div>
+    </div>
+    <!-- what to expect section - end -->
+
+    <!-- benefits section - start -->
+    <div class="about-text-section">
+        <div class="about-text-section-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <h2 class="heading heading-large dark-1 text-center">
+                            Why Book a Call With Us?
+                        </h2>
+                        
+                        <div class="row mt-5">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="text-center">
+                                    <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                        <i class="fas fa-users-cog" style="font-size: 48px; color: #000;"></i>
+                                    </div>
+                                    <h4 class="heading heading-small dark-1">Recruitment Specialists</h4>
+                                    <p class="dark-2">We work exclusively with recruitment agencies and understand your industry inside out.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="text-center">
+                                    <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                        <i class="fas fa-trophy" style="font-size: 48px; color: #000;"></i>
+                                    </div>
+                                    <h4 class="heading heading-small dark-1">Proven Track Record</h4>
+                                    <p class="dark-2">150+ recruitment agencies served with an average 250% increase in organic traffic.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="text-center">
+                                    <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                        <i class="fas fa-handshake" style="font-size: 48px; color: #000;"></i>
+                                    </div>
+                                    <h4 class="heading heading-small dark-1">No Pressure Approach</h4>
+                                    <p class="dark-2">We're here to help, not hard sell. You'll get valuable insights regardless of whether we work together.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="text-center">
+                                    <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                        <i class="fas fa-lightbulb" style="font-size: 48px; color: #000;"></i>
+                                    </div>
+                                    <h4 class="heading heading-small dark-1">Instant Value</h4>
+                                    <p class="dark-2">Walk away with actionable recommendations you can implement immediately.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="text-center">
+                                    <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                        <i class="fas fa-chart-bar" style="font-size: 48px; color: #000;"></i>
+                                    </div>
+                                    <h4 class="heading heading-small dark-1">Data-Driven Insights</h4>
+                                    <p class="dark-2">All recommendations are backed by data, analytics, and proven recruitment marketing strategies.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="text-center">
+                                    <div class="icon-wrapper" style="margin-bottom: 20px;">
+                                        <i class="fas fa-clock" style="font-size: 48px; color: #000;"></i>
+                                    </div>
+                                    <h4 class="heading heading-small dark-1">Flexible Scheduling</h4>
+                                    <p class="dark-2">Choose a time that works best for you with our easy online booking system.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- benefits section - end -->
+
+    <!-- FAQ section - start -->
+    <div class="client-section">
+        <div class="client-section-wrapper">
+            <div class="container">
+                <div class="client-section-header">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <h3 class="heading heading-large dark-1 text-center">
+                                Frequently Asked Questions
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="paragraph dark-1">
+                            <h5><strong>Is the consultation really free?</strong></h5>
+                            <p>Yes! There's no cost and no obligation. We offer free consultations to help recruitment agencies understand their options and make informed decisions.</p>
+                            
+                            <h5 style="margin-top: 30px;"><strong>Do I need to prepare anything before the call?</strong></h5>
+                            <p>Just come with an open mind and be ready to discuss your recruitment agency's goals and challenges. If you have access to your website analytics or advertising accounts, that's helpful but not required.</p>
+                            
+                            <h5 style="margin-top: 30px;"><strong>What happens after the consultation?</strong></h5>
+                            <p>After our call, we'll send you a summary of our discussion and recommendations via email. If you're interested in working together, we'll provide a customized proposal. If not, no worries - you'll still have valuable insights to implement.</p>
+                            
+                            <h5 style="margin-top: 30px;"><strong>How soon can we get started if I decide to work with you?</strong></h5>
+                            <p>We can typically onboard new clients within 1-2 weeks, depending on our current capacity and your specific needs. We'll discuss timing during your consultation.</p>
+                            
+                            <h5 style="margin-top: 30px;"><strong>Do you work with recruitment agencies of all sizes?</strong></h5>
+                            <p>Yes! We work with boutique niche firms as well as large multi-office recruitment agencies. Our strategies are customized to fit your size, budget, and goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ section - end -->
+
+    <!-- CTA section - start -->
+    <div class="projects-footer projects-footer-1 bg-black">
+        <div class="container">
+            <div class="row align-items-lg-center">
+                <div class="col-md-8">
+                    <h3 class="heading heading-large light-1">
+                        Ready to take your recruitment agency to the next level?
+                    </h3>
+                    <p class="light-2">Book your free consultation now and discover how we can help you grow.</p>
+                </div>
+                <div class="col-md-4 d-md-inline-flex justify-content-md-end">
+                    <div class="button-wrapper">
+                        <a class="button button-1" href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+                            Book Your Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA section - end -->
+
+    <!-- footer - start -->
+    <footer class="footer">
+        <div class="footer--wrapper">
+            <div class="container">
+                <div class="footer--header">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="footer--logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo_footer.png" alt="footer">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-1">
+                            <div class="footer--paragraph">
+                                <h3 class="heading heading-large light-1">
+                                    Your trusted partner in recruitment marketing.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer--details">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="detail-single footer-phone-number">
+                                <h6>PHONE</h6>
+                                <a href="tel:">
+                                    <h4>Your Phone Number</h4>    
+                                </a>
+                            </div>
+                            <div class="detail-single footer-address">
+                                <h6>ADDRESS</h6>
+                                <h4>Your Business Address</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="detail-single footer-email">
+                                <h6>ENQUIRIES</h6>
+                                <a href="mailto:hello@example.com">
+                                    <h4>hello@example.com</h4>
+                                </a>
+                            </div>
+                            <div class="detail-single">
+                                <div class="navigation-menu-social">
+                                    <h6>FOLLOW</h6>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="detail-single"> 
+                                <div class="email-form">
+                                    <label>SUBSCRIBE TO NEWSLETTER</label>
+                                    <div class="email-form-field">
+                                        <span class="email">
+                                            <input 
+                                                type="email" 
+                                                name="email"
+                                                placeholder="Email address">
+                                        </span>
+                                        <button type="submit">
+                                            <i class="fas fa-check-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <h6>Copyright © 2024. All rights reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer - end -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Optional: Calendly inline widget script (uncomment if you want to use inline calendar) -->
+    <!-- <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
+</body>
+</html>
+
