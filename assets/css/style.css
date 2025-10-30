@@ -24,3 +24,240 @@ img[src*="people_img"] {
     height: 109px !important;
     object-fit: cover;
 }
+
+/* Custom Styles for Recruitment Marketing */
+
+/* Reduce video height on mobile */
+@media (max-width: 767px) {
+    .video-section .video-container {
+        max-height: 300px !important;
+        overflow: hidden;
+    }
+    .video-section .video-container video {
+        max-height: 300px !important;
+        object-fit: cover;
+    }
+}
+
+/* Sticky CTA Button on Right Side */
+.sticky-cta {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.sticky-cta a {
+    display: inline-block;
+    padding: 20px 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none !important;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    transition: all 0.3s ease;
+}
+
+.sticky-cta a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.6);
+}
+
+@media (max-width: 991px) {
+    .sticky-cta {
+        display: none;
+    }
+}
+
+/* Popup Form Styling */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-overlay.active {
+    display: flex;
+}
+
+.popup-content {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.3s ease;
+}
+
+.popup-close:hover {
+    color: #000;
+}
+
+.popup-content h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.popup-content p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-content .form-group {
+    margin-bottom: 20px;
+}
+
+.popup-content label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+.popup-content input,
+.popup-content select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.popup-content input:focus,
+.popup-content select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.popup-content button[type="submit"] {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.popup-content button[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+
+/* SSL Badge Styling */
+.ssl-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f8f9fa;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.ssl-badge i {
+    color: #28a745;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.ssl-badge span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Meet Founder Section */
+.founder-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.founder-image {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.founder-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Certification Badges */
+.certification-badges {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.cert-badge {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cert-badge img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.cert-badge span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Improved CTA button hover effects */
+.button-1:hover,
+button.button-1:hover {
+    opacity: 0.95 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 35px rgba(102, 126, 234, 0.5) !important;
+}
+
+/* Prevent default button hover that reduces visibility */
+.button-1[style*="gradient"]:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+}
