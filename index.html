@@ -53,6 +53,19 @@
       }
     }
     </script>
+    
+    <!-- Custom styles for black text CTAs -->
+    <style>
+        /* Keep hero CTA text black on hover */
+        #heroCTA:hover {
+            color: #000 !important;
+        }
+        
+        /* Keep Get Started Now CTA text black on hover */
+        #getStartedCTA:hover {
+            color: #000 !important;
+        }
+    </style>
 </head>
 <body>
 
@@ -171,7 +184,7 @@
                             The Recruitment Marketing Agency That Drives Results
                         </h1>
                         <div style="margin-top: 30px;">
-                            <button class="button button-1" onclick="openPopup()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #000; border: none; padding: 18px 40px; font-size: 18px; font-weight: 700; border-radius: 10px; cursor: pointer; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4); transition: all 0.3s ease;">
+                            <button id="heroCTA" class="button button-1" onclick="openPopup()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #000; border: none; padding: 18px 40px; font-size: 18px; font-weight: 700; border-radius: 10px; cursor: pointer; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4); transition: all 0.3s ease;">
                                 Get Free Recruitment Plan
                             </button>
                         </div>
@@ -265,7 +278,7 @@
                                     <em>Join 200+ recruitment firms already using our system</em>
                                 </p>
                             </div>
-                            <a class="button button-1" href="book-call.html" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #000; padding: 18px 40px; margin-top: 20px;">
+                            <a id="getStartedCTA" class="button button-1" href="book-call.html" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #000; padding: 18px 40px; margin-top: 20px;">
                                 Get Started Now
                             </a>
                         </div>
