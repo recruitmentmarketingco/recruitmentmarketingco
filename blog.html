@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Recruitment Marketing Insights & Tips</title>
-    <meta name="description" content="Expert recruitment marketing insights, tips, and strategies. Stay updated with the latest trends in SEO, PPC, and digital marketing for recruitment agencies.">
+    <title>Recruitment Marketing Blog | Insights for Growth</title>
+    <meta name="description" content="Explore actionable blogs on recruitment marketing, SEO, and PPC. Learn how to attract top clients, improve visibility, and grow your agency faster.">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
@@ -161,6 +161,11 @@
     </div>
     <!-- navigation - end -->
 
+    <!-- Sticky CTA Button -->
+    <div class="sticky-cta">
+        <a href="book-call.html">Get Free Consultation</a>
+    </div>
+
     <!-- page header - start -->
     <div class="page-header position-relative">
         <div class="page-header-top">
@@ -213,66 +218,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     
-                    <!-- ========================================
-                         MICROCMS PLACEHOLDER
-                         Replace this section with your MicroCMS embed code
-                         ======================================== -->
-                    
-                    <div class="microcms-placeholder">
-                        <i class="fas fa-newspaper"></i>
-                        <h3 class="heading heading-medium">MicroCMS Integration Area</h3>
-                        <p>This is where your blog content from MicroCMS will be displayed. Replace this placeholder with your MicroCMS embed code or API integration.</p>
-                        
-                        <div style="margin-top: 30px; text-align: left; max-width: 800px; margin-left: auto; margin-right: auto; background: #fff; padding: 30px; border-radius: 8px;">
-                            <h4 style="margin-bottom: 15px;">Integration Instructions:</h4>
-                            
-                            <h5 style="margin-top: 20px; margin-bottom: 10px;">Option 1: Direct Embed (Iframe)</h5>
-                            <p>If MicroCMS provides an iframe embed code, replace this entire placeholder div with:</p>
-                            <code style="display: block; padding: 15px; background: #f8f9fa; margin: 10px 0; overflow-x: auto;">
-                                &lt;iframe src="YOUR_MICROCMS_URL" width="100%" height="800px" frameborder="0"&gt;&lt;/iframe&gt;
-                            </code>
-                            
-                            <h5 style="margin-top: 20px; margin-bottom: 10px;">Option 2: JavaScript SDK</h5>
-                            <p>Use MicroCMS JavaScript SDK to fetch and display content:</p>
-                            <code style="display: block; padding: 15px; background: #f8f9fa; margin: 10px 0; overflow-x: auto; white-space: pre-wrap;">
-&lt;div id="microcms-blog-container"&gt;&lt;/div&gt;
-
-&lt;script src="https://cdn.jsdelivr.net/npm/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-  const client = microcms.createClient({
-    serviceDomain: 'YOUR_SERVICE_DOMAIN',
-    apiKey: 'YOUR_API_KEY'
-  });
-
-  client.get({
-    endpoint: 'blogs'
-  }).then(res => {
-    // Display your blog posts here
-    const container = document.getElementById('microcms-blog-container');
-    res.contents.forEach(post => {
-      container.innerHTML += `
-        &lt;article&gt;
-          &lt;h2&gt;${post.title}&lt;/h2&gt;
-          &lt;p&gt;${post.description}&lt;/p&gt;
-        &lt;/article&gt;
-      `;
-    });
-  });
-&lt;/script&gt;
-                            </code>
-                            
-                            <h5 style="margin-top: 20px; margin-bottom: 10px;">Option 3: Custom Integration</h5>
-                            <p>For more control, fetch content via MicroCMS API and render it with your custom HTML/CSS template.</p>
-                            
-                            <div style="margin-top: 30px; padding: 20px; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
-                                <strong>Note:</strong> Make sure to secure your API keys and never expose them in client-side code for production sites. Consider using environment variables or server-side rendering.
+                    <!-- MicroCMS Blog Posts Container -->
+                    <div id="microcms-blog-container" class="row">
+                        <!-- Loading state -->
+                        <div class="col-12 text-center" id="loading-state" style="padding: 80px 20px;">
+                            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                                <span class="sr-only">Loading...</span>
                             </div>
+                            <p style="margin-top: 20px; color: #6c757d;">Loading blog posts...</p>
                         </div>
                     </div>
-                    
-                    <!-- ========================================
-                         END OF MICROCMS PLACEHOLDER
-                         ======================================== -->
                     
                 </div>
             </div>
@@ -437,20 +392,20 @@
                         <div class="col-lg-4">
                             <div class="detail-single footer-phone-number">
                                 <h6>PHONE</h6>
-                                <a href="tel:">
-                                    <h4>Your Phone Number</h4>    
+                                <a href="tel:02070623389">
+                                    <h4>020 7062 3389</h4>    
                                 </a>
                             </div>
                             <div class="detail-single footer-address">
                                 <h6>ADDRESS</h6>
-                                <h4>Your Business Address</h4>
+                                <h4>101 Commercial Road<br>London, E1 1RD</h4>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="detail-single footer-email">
                                 <h6>ENQUIRIES</h6>
-                                <a href="mailto:hello@example.com">
-                                    <h4>hello@example.com</h4>
+                                <a href="mailto:recruitmentmarketingco@gmail.com">
+                                    <h4>recruitmentmarketingco@gmail.com</h4>
                                 </a>
                             </div>
                             <div class="detail-single">
@@ -502,7 +457,7 @@
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <h6>Copyright © 2024. All rights reserved.</h6>
+                    <h6>Copyright © 2025. All rights reserved.</h6>
                 </div>
             </div>
         </div>
@@ -518,11 +473,124 @@
     <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
     <script src="assets/js/main.js"></script>
     
-    <!-- MicroCMS SDK Script (Add when ready to integrate) -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"></script> -->
+    <!-- MicroCMS SDK Script -->
+    <script src="https://cdn.jsdelivr.net/npm/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"></script>
     
-    <!-- Your MicroCMS Integration Script -->
-    <!-- <script src="assets/js/microcms-blog.js"></script> -->
+    <!-- MicroCMS Blog Integration -->
+    <script>
+        // Create MicroCMS client
+        const client = microcms.createClient({
+            serviceDomain: 'recruitmentmarketingco', // Update this with your actual service domain
+            apiKey: 'q2kthMvtPriMDrKZwSwVe62tsC0pWOPnvvLN'
+        });
+
+        // Fetch and display blog posts
+        client.get({
+            endpoint: 'blogs', // Update this with your actual endpoint name
+            queries: {
+                limit: 12, // Number of posts to fetch
+                orders: '-publishedAt' // Order by published date, newest first
+            }
+        }).then(res => {
+            const container = document.getElementById('microcms-blog-container');
+            const loadingState = document.getElementById('loading-state');
+            
+            // Remove loading state
+            if (loadingState) {
+                loadingState.remove();
+            }
+            
+            // Check if there are posts
+            if (!res.contents || res.contents.length === 0) {
+                container.innerHTML = `
+                    <div class="col-12 text-center" style="padding: 80px 20px;">
+                        <i class="fas fa-newspaper" style="font-size: 64px; color: #adb5bd; margin-bottom: 20px;"></i>
+                        <h3>No blog posts yet</h3>
+                        <p style="color: #6c757d;">Check back soon for our latest insights on recruitment marketing.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Display blog posts
+            res.contents.forEach(post => {
+                const postDate = new Date(post.publishedAt || post.createdAt);
+                const formattedDate = postDate.toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                });
+                
+                const postHTML = `
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <article style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; height: 100%;">
+                            ${post.featuredImage ? `
+                                <div style="height: 220px; overflow: hidden;">
+                                    <img src="${post.featuredImage.url}" alt="${post.title}" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                            ` : ''}
+                            <div style="padding: 25px;">
+                                ${post.category ? `
+                                    <span style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 12px;">
+                                        ${post.category}
+                                    </span>
+                                ` : ''}
+                                <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 12px; line-height: 1.4; color: #333;">
+                                    ${post.title}
+                                </h3>
+                                <p style="color: #666; font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
+                                    ${post.description || post.excerpt || ''}
+                                </p>
+                                <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 15px; border-top: 1px solid #e0e0e0;">
+                                    <span style="color: #999; font-size: 13px;">
+                                        <i class="far fa-calendar" style="margin-right: 5px;"></i>
+                                        ${formattedDate}
+                                    </span>
+                                    ${post.slug ? `
+                                        <a href="blog-post.html?id=${post.id}" style="color: #667eea; font-weight: 600; font-size: 14px; text-decoration: none;">
+                                            Read More →
+                                        </a>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                `;
+                
+                container.innerHTML += postHTML;
+            });
+            
+            // Add hover effect with JavaScript
+            const articles = container.querySelectorAll('article');
+            articles.forEach(article => {
+                article.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.boxShadow = '0 8px 25px rgba(0,0,0,0.15)';
+                });
+                article.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
+                });
+            });
+        }).catch(err => {
+            console.error('MicroCMS Error:', err);
+            const container = document.getElementById('microcms-blog-container');
+            const loadingState = document.getElementById('loading-state');
+            
+            if (loadingState) {
+                loadingState.remove();
+            }
+            
+            container.innerHTML = `
+                <div class="col-12 text-center" style="padding: 80px 20px;">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 64px; color: #dc3545; margin-bottom: 20px;"></i>
+                    <h3>Unable to load blog posts</h3>
+                    <p style="color: #6c757d;">Please check your MicroCMS configuration and try again.</p>
+                    <p style="color: #999; font-size: 14px; margin-top: 10px;">Error: ${err.message}</p>
+                </div>
+            `;
+        });
+    </script>
 </body>
 </html>
 
