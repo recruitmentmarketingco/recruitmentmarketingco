@@ -171,7 +171,7 @@
                             The Recruitment Marketing Agency That Drives Results
                         </h1>
                         <div style="margin-top: 30px;">
-                            <button class="button button-1" onclick="openPopup()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 18px 40px; font-size: 18px; font-weight: 700; border-radius: 10px; cursor: pointer; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4); transition: all 0.3s ease;">
+                            <button class="button button-1" onclick="openPopup()" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #000; border: none; padding: 18px 40px; font-size: 18px; font-weight: 700; border-radius: 10px; cursor: pointer; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4); transition: all 0.3s ease;">
                                 Get Free Recruitment Plan
                             </button>
                         </div>
@@ -751,25 +751,25 @@
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Work Email *</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="company">Company *</label>
+                    <label for="company">Company Name *</label>
                     <input type="text" id="company" name="company" required>
                 </div>
                 <div class="form-group">
-                    <label for="hires">Monthly Hiring Needed *</label>
-                    <select id="hires" name="hires" required>
+                    <label for="openings">Openings Available *</label>
+                    <select id="openings" name="openings" required>
                         <option value="">Select...</option>
-                        <option value="1-5">1-5 hires</option>
-                        <option value="6-10">6-10 hires</option>
-                        <option value="11-20">11-20 hires</option>
-                        <option value="21-50">21-50 hires</option>
-                        <option value="50+">50+ hires</option>
+                        <option value="1-5">1-5 openings</option>
+                        <option value="6-10">6-10 openings</option>
+                        <option value="11-20">11-20 openings</option>
+                        <option value="21-50">21-50 openings</option>
+                        <option value="50+">50+ openings</option>
                     </select>
                 </div>
-                <button type="submit">Get My Free Plan</button>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Send</button>
             </form>
         </div>
     </div>
@@ -795,9 +795,9 @@
             
             const formData = {
                 name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
                 company: document.getElementById('company').value,
-                hires: document.getElementById('hires').value
+                openings: document.getElementById('openings').value,
+                email: document.getElementById('email').value
             };
 
             // Create mailto link
@@ -805,9 +805,9 @@
             const body = encodeURIComponent(
                 `New recruitment plan request:\n\n` +
                 `Name: ${formData.name}\n` +
-                `Email: ${formData.email}\n` +
-                `Company: ${formData.company}\n` +
-                `Monthly Hiring Needed: ${formData.hires}`
+                `Company Name: ${formData.company}\n` +
+                `Openings Available: ${formData.openings}\n` +
+                `Email: ${formData.email}`
             );
             
             window.location.href = `mailto:recruitmentmarketingco@gmail.com?subject=${subject}&body=${body}`;
