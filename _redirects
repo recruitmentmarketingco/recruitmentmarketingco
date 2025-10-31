@@ -1,0 +1,21 @@
+# Redirects for Netlify and Cloudflare Pages
+# Remove .html extension from URLs
+
+# Redirect .html URLs to extensionless URLs
+/index.html           /                301
+/about.html           /about           301
+/contact.html         /contact         301
+/blog.html            /blog            301
+/book-call.html       /book-call       301
+/seo-for-recruiters.html  /seo-for-recruiters  301
+/ppc-for-recruiters.html  /ppc-for-recruiters  301
+/404.html             /404             301
+
+# Serve .html files for extensionless URLs
+/about                /about.html      200
+/contact              /contact.html    200
+/blog                 /blog            200
+/book-call            /book-call.html  200
+/seo-for-recruiters   /seo-for-recruiters.html  200
+/ppc-for-recruiters   /ppc-for-recruiters.html  200
+/404                  /404.html        200
