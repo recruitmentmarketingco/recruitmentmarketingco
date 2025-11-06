@@ -1003,6 +1003,7 @@
     <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/forms.js"></script>
 
     <!-- PPC Audit Popup -->
     <div class="popup-overlay" id="ppcAuditPopup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; justify-content: center; align-items: center;">
@@ -1053,29 +1054,7 @@
             }
         });
 
-        function submitPPCAuditForm(event) {
-            event.preventDefault();
-            
-            const name = document.getElementById('ppcAuditName').value;
-            const company = document.getElementById('ppcAuditCompany').value;
-            const website = document.getElementById('ppcAuditWebsite').value;
-            
-            const subject = 'PPC Audit Request from ' + company;
-            const body = `New PPC Audit Request:%0D%0A%0D%0A` +
-                        `Name: ${name}%0D%0A` +
-                        `Company: ${company}%0D%0A` +
-                        `Website: ${website}%0D%0A%0D%0A` +
-                        `Please provide a free PPC audit for this recruitment agency.`;
-            
-            window.location.href = `mailto:recruitmentmarketingco@gmail.com?subject=${subject}&body=${body}`;
-            
-            // Close popup after submission
-            setTimeout(function() {
-                closePPCAuditPopup();
-                document.getElementById('ppcAuditForm').reset();
-                alert('Thank you! Your default email client will open to send your PPC audit request.');
-            }, 500);
-        }
+        // Form submission is now handled by forms.js
     </script>
 </body>
 </html>

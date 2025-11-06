@@ -985,6 +985,7 @@
     <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/forms.js"></script>
 
     <!-- Get Quote Popup -->
     <div class="popup-overlay" id="quotePopup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; justify-content: center; align-items: center;">
@@ -1047,31 +1048,7 @@
             }
         });
 
-        function submitQuoteForm(event) {
-            event.preventDefault();
-            
-            const name = document.getElementById('quoteName').value;
-            const company = document.getElementById('quoteCompany').value;
-            const website = document.getElementById('quoteWebsite').value;
-            const adspend = document.getElementById('quoteAdSpend').value;
-            
-            const subject = 'SEO Quote Request from ' + company;
-            const body = `New SEO Quote Request:%0D%0A%0D%0A` +
-                        `Name: ${name}%0D%0A` +
-                        `Company: ${company}%0D%0A` +
-                        `Website: ${website}%0D%0A` +
-                        `Current Ad Spend: ${adspend}%0D%0A%0D%0A` +
-                        `Please provide a custom SEO quote for this recruitment agency.`;
-            
-            window.location.href = `mailto:recruitmentmarketingco@gmail.com?subject=${subject}&body=${body}`;
-            
-            // Close popup after submission
-            setTimeout(function() {
-                closeQuotePopup();
-                document.getElementById('quoteForm').reset();
-                alert('Thank you! Your default email client will open to send your quote request.');
-            }, 500);
-        }
+        // Form submission is now handled by forms.js
     </script>
 </body>
 </html>

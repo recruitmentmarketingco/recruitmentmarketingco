@@ -1025,33 +1025,7 @@
             }
         });
 
-        function submitForm(e) {
-            e.preventDefault();
-            
-            const formData = {
-                name: document.getElementById('name').value,
-                company: document.getElementById('company').value,
-                openings: document.getElementById('openings').value,
-                email: document.getElementById('email').value
-            };
-
-            // Create mailto link
-            const subject = encodeURIComponent('Free Recruitment Plan Request');
-            const body = encodeURIComponent(
-                `New recruitment plan request:\n\n` +
-                `Name: ${formData.name}\n` +
-                `Company Name: ${formData.company}\n` +
-                `Openings Available: ${formData.openings}\n` +
-                `Email: ${formData.email}`
-            );
-            
-            window.location.href = `mailto:recruitmentmarketingco@gmail.com?subject=${subject}&body=${body}`;
-            
-            // Show success message
-            alert('Thank you! Your request has been sent. We\'ll get back to you within 24 hours.');
-            closePopup();
-            document.getElementById('recruitmentPlanForm').reset();
-        }
+        // Form submission is now handled by forms.js
     </script>
 
     <script src="assets/js/jquery.min.js"></script>
@@ -1062,5 +1036,6 @@
     <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/jquery.overlayScrollbars.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/forms.js"></script>
 </body>
 </html>
