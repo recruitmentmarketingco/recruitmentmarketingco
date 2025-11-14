@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/book-call", "destination": "/book-call.html" },
+    { "source": "/seo-for-recruiters", "destination": "/seo-for-recruiters.html" },
+    { "source": "/ppc-for-recruiters", "destination": "/ppc-for-recruiters.html" },
+    { "source": "/404", "destination": "/404.html" }
+  ],
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/about.html", "destination": "/about", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/blog.html", "destination": "/blog", "permanent": true },
+    { "source": "/book-call.html", "destination": "/book-call", "permanent": true },
+    { "source": "/seo-for-recruiters.html", "destination": "/seo-for-recruiters", "permanent": true },
+    { "source": "/ppc-for-recruiters.html", "destination": "/ppc-for-recruiters", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
